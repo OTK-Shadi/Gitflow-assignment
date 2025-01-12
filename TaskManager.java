@@ -24,5 +24,12 @@ public class TaskManager {
             System.out.println("Task not found at index: " + index);
         }
     }
+    
+    public static void viewTasks() {
+        System.out.println("All tasks:");
+        for (Task task : tasks) {
+            System.out.println(task);
+        }
+    }
 
 }
